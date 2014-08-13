@@ -19,8 +19,7 @@ class AuthController extends BaseController {
         $userid = $query_data['user_id'];
         $passwd = $query_data['passwd'];
         
-        $this->log("userid = ".$userid, LOG_DEBUG);
-        
+        $this->log("userida = ".$userid, LOG_DEBUG);        
         $this->log("passwd = ".$passwd, LOG_DEBUG);
         
         //データベース登録用のパスワードをログに出す
